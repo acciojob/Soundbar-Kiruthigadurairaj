@@ -1,19 +1,25 @@
-#buttons{
-    background-color: rgb(161,100,223);
+#buttons {
+    background-color: rgb(161, 100, 223);
     display: flex;
-    justify-content: space-around;
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
     width: 100vw;
     height: 100vh;
     position: relative;
 }
-.btn,.stop{
+
+.btn, .stop {
     width: 100px;
     height: 40px;
-    justify-content:;
-    background-color: rgb(102,51,153);
+    background-color: rgb(102, 51, 153);
     border-radius: 5px;
     color: white;
-    box-shadow: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover, .stop:hover {
+    background-color: rgb(80, 40, 130);
 }
