@@ -1,40 +1,19 @@
- body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #9b59b6; /* Purple background */
-        }
-
-        #buttons {
-            display: flex;
-            gap: 15px;
-        }
-
-        .btn {
-            padding: 15px 30px;
-            font-size: 18px;
-            color: white;
-            background-color: #5e2d91; /* Button purple shade */
-            border: none;
-            border-radius: 0px;
-            cursor: pointer;
-            text-transform: lowercase;
-            transition: transform 0.2s, background-color 0.3s;
-        }
-
-        .btn:hover {
-            background-color: #4b2380; /* Darker shade on hover */
-            transform: scale(1.1);
-        }
-
-        .stop {
-            background-color: #5e2d91; /* Stop button red */
-        }
-
-        .stop:hover {
-            background-color:#5e2d91; 
-        }
+#buttons{
+    background-color: rgb(161,100,223);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.btn,.stop{
+    width: 100px;
+    height: 40px;
+    justify-content:;
+    background-color: rgb(102,51,153);
+    border-radius: 5px;
+    color: white;
+    box-shadow: none;
+}
